@@ -24,7 +24,7 @@ function convertToIST(isoTime) {
     return date.toLocaleString("en-IN", options);
 }
 
-const page = () => {
+const AllStudents = () => {
     const [loading, setLoading] = useState(true);
     const [students, setStudents] = useState([]);
     const [_students, _setStudents] = useState([]);
@@ -223,4 +223,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default AllStudents;
