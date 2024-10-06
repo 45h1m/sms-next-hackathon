@@ -25,3 +25,50 @@ body {
     text-wrap: balance;
   }
 }
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.067);
+	background-color: transparent;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+    height: 10px;
+	background-color: rgba(15, 23, 42, 0.142);;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: rgb(165, 239, 250);
+}
+
+thead td {
+  padding: 5rem;
+}
+table th {
+  padding: 1rem;
+  padding-left: 2rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+table tr td {
+  padding: 0.4rem 0;
+  padding-left: 1.5rem;
+}
+table tr td:not(:nth-child(2), :nth-child(3)) {
+  padding-left: 1rem;
+}
+
+table tbody tr:hover {
+  background: rgba(4, 36, 37, 0.478);
+}
+
+tbody tr td:last-child {
+  padding-right: 1rem;
+}
+tbody tr:nth-of-type(2n-1) {
+  background: rgba(0, 0, 0, 0.115);
+}
